@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SSM6L40TU,LF
+D Mosfet Array 30V 1.6A (Ta), 1.4A (Ta) 500mW (Ta) Surface Mount UF6
+K
+F https://toshiba.semicon-storage.com/info/SSM6L40TU_datasheet_en_20140301.pdf?did=11245&prodName=SSM6L40TU
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ABS05-32.768KHZ-6-T
+D Crystal 0.032768MHz +/-20ppm (Tol) 6pF FUND 90000Ohm 2-Pin CSMD T/R
+K
+F https://abracon.com/Resonators/ABS05.pdf
+$ENDCMP
+#
+#End Doc Library

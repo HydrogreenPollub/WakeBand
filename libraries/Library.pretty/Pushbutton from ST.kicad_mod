@@ -1,0 +1,115 @@
+(footprint "Pushbutton from ST"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f020b53f-d7f7-4a5e-9634-604fc3eab868")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Pushbutton from ST"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "882897ce-c9d0-4aa5-96fd-cd74db990f9c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4c08889e-e44c-4499-9679-c7b4a21dc200")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ffb623e1-36d4-4343-bfaa-f37a446ca42c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 3 -1)
+		(end 3 1)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "457c6128-bfef-4a24-97fa-e48d1bc415e4")
+	)
+	(fp_poly
+		(pts
+			(xy -2 1) (xy -3 1) (xy -3 -1) (xy -2 -1)
+		)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(uuid "40697ba9-e19f-4579-8280-75d3da89ae7f")
+	)
+	(fp_poly
+		(pts
+			(xy 2 -1) (xy 3 -1) (xy 3 1) (xy 2 1)
+		)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(uuid "680bb4d2-d9f2-4e91-b59d-bf39bf0a7454")
+	)
+	(fp_rect
+		(start -3.5 -1.5)
+		(end 3.5 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Margin")
+		(uuid "64267d72-47c0-4a8a-be7c-cab92419618a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "42cce8a8-90ab-4c28-9c7d-74f796cf17a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
